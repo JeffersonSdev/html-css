@@ -1,0 +1,161 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('./fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+:root{
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-android: 'Android',cursive;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(252, 234, 213);
+    font-family: var(--fonte-padrao);
+
+}
+header{
+    background-image: linear-gradient(to bottom, #67c567, black);
+    color: white;
+    text-align: center;
+}
+header > h1{
+    font-family: var(--fonte-destaque);
+}
+h1{
+    padding-top: 30px;
+}
+#menu{
+    text-align: left;
+    
+}
+.menu{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.menu:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+}
+main{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    box-shadow: 0px 0px 7px #00000099;
+    border-end-start-radius: 7px;
+    border-end-end-radius: 7px;
+    
+
+}
+main > h2{
+    font-family: var(--fonte-android);
+    padding: 10px;
+    color: green;
+}
+#titulo-main{
+    font-family: var(--fonte-android);
+    padding: 10px;
+    color: green;
+}
+
+.principal{
+    text-align: justify;
+}
+main p{
+    padding: 0px 10px ;
+    margin: 15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+    
+    
+}
+h2{
+    background-image: linear-gradient(to right, #86eb86, white );
+    width: 90%;
+    margin: 15px;
+    padding-left: 10px;
+}
+span > a{
+    background-color: #86eb86;
+}
+.link{
+    color:green;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.nome{
+    font-weight: bold;
+    color: #115f11;
+}
+img{
+    width: 100%;
+    margin: auto;
+}
+#android{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+#section-video{
+    background-color: #115f11;
+    width: 100%;
+    height: 550px;
+}
+#video{
+    text-align: center;
+    padding: 20px;
+}
+
+#aprender-mais{
+    background-color: #86eb86;
+    border-radius: 7px;
+    margin: 30px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.432);
+}
+h3{ 
+    background-color: #115f11;
+    padding: 10px;
+    color: #ffff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+#lista{
+    margin-left: 30px;
+    
+}
+ul{
+    display: inline-block;
+    margin: 20px;
+    list-style: '\1F5F8\00A0';
+}
+#final{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+footer{
+    background-color: #115f11;
+    color: white;
+    margin-top: 30px;
+    padding: 1px;
+    height: 40px;
+    text-align: center;
+}

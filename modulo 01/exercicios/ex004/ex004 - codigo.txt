@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Testando carga e imagens</h1>
+    <h3>Abaixo imagens redimencionadas leves:</h3>
+    <img src="logo-html5-redimensionada.png" alt="Logo HTML5"> 
+    <img src="logo-css3-redimensionada.png" alt="Logo CSS3">
+    
+    <!-- "alt" para quando a imagem não carregar aparecer o texto alternativo-->
+
+    <p>A vantagem de redimensionar sua imagem é que o site fica mais leve, muitas vezes não tem nem necessidade da imagem ser tão grande<br>e acaba pesando o site sem necessidade, utilizei o programa "GIMP" seguindo os passos do Guanabara !</p>
+</body>
+</html>

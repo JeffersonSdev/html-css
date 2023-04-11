@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="t-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1>Site de Exemplo</h1>
+    <h2>Titulo 1</h2>
+    <p>Lorem ipsum dolort consectetur, adipisicing elit. Similique eveniet exercitationem sunt a, repellendus deserunt necessitatibus totam praesentium, soluta, corrupti culpa ea! Perferendis alias soluta ratione saepe quia a sed.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet exercitationem sunt a, repellendus deseitatibus totam praesentium, soluta, corrupti culpa ea! Perferendis alias soluta ratione saepe quia a sed.</p>
+    <h2>Titulo 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet exercitationem sunt a, repellendus detatibus totam praesentium, soluta, corrupti culpa ea! Perferendis alias soluta ratione saepe quia a sed.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet exercitationem sunt a, repellendus desesitatibus totam praesentium, soluta, corrupti culpa ea! Perferendis alias soluta ratione saepe quia a sed.</p>
+    <h2>Titulo 3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet exercitationem sunt a, repellendus necessitatibus totam praesentium, soluta, corrupti culpa ea! Perferendis alias soluta ratione saepe quia a sed.</p>
+    
+</main>
+</body>
+</html>
+
+CSS------------------
+
+@charset "utf-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #02735E, #025951, #034159);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #032c3d;
+    padding: 10px;
+
+}
+
+h1{
+    color:#0CF25D;
+    text-align: center;
+    border: #034159;
+}
+
+h2{
+    color:#055474;
+}
+
+p{
+    text-align: justify;
+}

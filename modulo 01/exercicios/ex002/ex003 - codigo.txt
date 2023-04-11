@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragrafos</title>
+</head>
+<body>
+    <h1>Parágrafos e quebras de linhas</h1>
+    <hr>
+    <p>Você pode escrever um parágrafo como quiser, basta colocar entre as tags &lt;p&gt; e &lt;/p&gt;
+    <p>Se precisar quebrar o texto em algum lugar especifico <br> como esse, você pode usar a tag &lt;br&gt;</p>
+
+    <p>Vamos adicionar alguns símbolos especiais: <br>
+
+    &reg; Marca registrada. <br>
+    &copy; CopyRight. <br>
+    &trade; Marca registrada em inglês. <br>
+    
+    &euro; <br>
+    &dollar; <br>
+    &yen; <br>
+    &cent; <br>
+    &Delta; <br>
+    &uparrow;
+    </p>
+
+    <p>Vamos adicionar alguns emoji &#x1F60A <br>
+    Vá no site emojipedia e escolha seu emoji <br>
+    role para baixo até encontrar "codepoints" <br>
+    copie depois do sinal "+" e cole logo após o comando "&#x" &#x1F607
+    </p>
+    <h2>&#x1F60E &#x1F609&#x1F576&#x1F90F</h2>
+</body>
+</html>

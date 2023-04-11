@@ -1,0 +1,4 @@
+Para a realização do desafio usei os seguintes programas: VSCODE, GIMP;
+Peguei imagens de um avatar, logo NWSOFT, logo WhatsApp e redimensionei ela utilizando GIMP;
+
+ATENÇÃO - Não estarei utilizando ferramentas e métodos que ainda não foram vistos até então no curso para não perder o foco do que está sendo realmente ensinado e apresentado pelo professor !

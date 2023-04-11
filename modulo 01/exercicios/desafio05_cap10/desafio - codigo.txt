@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+</head>
+<body>
+    <h1>Minhas redes sociais</h1>
+    <h2>Quem sou eu ?</h2>
+    <img src="avatar.png" alt="Imagem">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum voluptatem odio eum sunt sed soluta autem, eligendi nihil voluptates explicabo voluptate, velit earum est debitis modi nam reprehenderit doloremque. Adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nobis praesentium, magnam officia obcaecati velit et quam ipsam sint possimus deleniti deserunt. Ullam cupiditate quo voluptate deserunt, laborum itaque magnam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis eius aut, cupiditate inventore animi officia. Nostrum debitis magni minus, autem consectetur, quod quide</p>
+    <h2>Como falar comigo?</h2>
+    <ul>
+        <li><img src="icone-github.png" alt="GitHub"><a href="https://github.com/JeffersonSdev/JeffersonSdev" target="_blank" rel="external">/devjeffersonsantos</a> - Acessa meu repositório público no GitHub</li>
+
+        <li><img src="NW-icon_20x20.png" alt="nwsoft"><a href="https://www.nwsoft.com.br/">NWSOFT</a>- Empresa do meu estágio</li>
+        <li><img src="whatsapp-icon.jpg" alt="WhatsApp">(99)99999-9999 - Me chama lá no WhatsApp</li>
+    </ul>
+</body>
+</html>
